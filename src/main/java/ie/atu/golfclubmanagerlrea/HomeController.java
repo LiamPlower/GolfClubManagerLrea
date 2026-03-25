@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public String home() {
-        return "<h1>Welcome to Golf Club Manager Loughrea </h1>" +
+        return "<h1>Welcome to Golf Club Manager Loughrea\n Please click equipment below to view  </h1>" +
                 "<a href='/equipment'><button>Go to Equipment</button></a>";
     }
 }
